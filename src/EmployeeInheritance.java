@@ -5,7 +5,7 @@ class Employee {
     int age;
     String phoneNumber;
     String address;
-    int salary;
+    double salary;
 
     void printSalary() {
         System.out.println(salary);
@@ -29,7 +29,7 @@ public class EmployeeInheritance {
             if (sc.hasNextLine()) o.age = Integer.parseInt(sc.nextLine().trim());
             if (sc.hasNextLine()) o.phoneNumber = sc.nextLine().trim();
             if (sc.hasNextLine()) o.address = sc.nextLine().trim();
-            if (sc.hasNextLine()) o.salary = Integer.parseInt(sc.nextLine().trim());
+            if (sc.hasNextLine()) o.salary = Double.parseDouble(sc.nextLine().trim());
             if (sc.hasNextLine()) o.specialization = sc.nextLine().trim();
 
             // Read Manager
@@ -38,7 +38,7 @@ public class EmployeeInheritance {
             if (sc.hasNextLine()) m.age = Integer.parseInt(sc.nextLine().trim());
             if (sc.hasNextLine()) m.phoneNumber = sc.nextLine().trim();
             if (sc.hasNextLine()) m.address = sc.nextLine().trim();
-            if (sc.hasNextLine()) m.salary = Integer.parseInt(sc.nextLine().trim());
+            if (sc.hasNextLine()) m.salary = Double.parseDouble(sc.nextLine().trim());
             if (sc.hasNextLine()) m.department = sc.nextLine().trim();
 
             // Output Officer
